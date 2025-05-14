@@ -236,6 +236,36 @@ footer {
 
 /* #region responsive */
 
+@media screen and (min-width: 576px) {
+  main {
+    #socials {
+      .row {
+        gap: 1rem;
+      }
+      .brand {
+        flex-grow: 1;
+        padding: 0.75rem 1rem;
+        border-radius: 20px;
+      }
+    }
+
+    #presentation {
+      .text {
+        text-align: left;
+
+        img {
+          float: left;
+          margin-right: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 90%;
@@ -284,32 +314,6 @@ footer {
 
     #banner {
       display: block;
-    }
-
-    #socials {
-      .row {
-        gap: 1rem;
-      }
-      .brand {
-        flex-grow: 1;
-        padding: 0.75rem 1rem;
-        border-radius: 20px;
-      }
-    }
-
-    #presentation {
-      .text {
-        text-align: left;
-
-        img {
-          float: left;
-          margin-right: 2rem;
-        }
-
-        p {
-          font-size: 1rem;
-        }
-      }
     }
   }
 }
