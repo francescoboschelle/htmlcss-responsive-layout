@@ -65,6 +65,10 @@ header {
 
 main {
   #hero {
+    .row {
+      box-shadow: 0px 0px 10px 0px rgb(206, 206, 206);
+    }
+
     .title {
       p {
         color: rgb(141, 141, 141);
@@ -104,6 +108,34 @@ main {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+    }
+
+    .brand {
+      padding: 0.3rem 0.65rem;
+      border-radius: 1rem;
+      color: rgb(0, 0, 0);
+      background-color: white;
+      box-shadow: 0px 0px 10px 0px rgb(206, 206, 206);
+
+      .fa-facebook {
+        color: rgb(26, 119, 243);
+      }
+
+      .fa-twitter {
+        color: rgb(0, 158, 255);
+      }
+
+      .fa-instagram {
+        color: rgb(220, 61, 163);
+      }
+
+      .fa-pinterest {
+        color: rgb(230, 34, 34);
+      }
+
+      .fa-youtube {
+        color: rgb(230, 34, 34);
+      }
     }
   }
 }
